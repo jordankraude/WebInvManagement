@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebInvManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5265f51896b4f23df16cf0b6d77b0dd261cf629f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebInvManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebInvManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
