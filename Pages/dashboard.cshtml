@@ -1,0 +1,31 @@
+@page
+@namespace WebInvManagement.Pages
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+    Layout = "_Layout";
+}
+
+<h1 class="mb-4">@ViewData["Title"]</h1>
+
+<div class="container m-auto h-auto mt-4">
+    <div class="row">
+        <div class="col-md-4 mb-3">
+            <a href="/AddProduct" class="btn btn-primary btn-block">Add Product</a>
+        </div>
+        <div class="col-md-4 mb-3">
+            <a href="/ViewInventory" class="btn btn-primary btn-block">View Inventory</a>
+        </div>
+        <div class="col-md-4 mb-3">
+            <a href="/UpdateProduct" class="btn btn-primary btn-block">Edit Product</a>
+        </div>
+    </div>
+    <div class="row justify-content-around">
+        <div class="col-md-4 mb-3">
+            <a href="/RemoveProduct" class="btn btn-primary btn-block">Delete Product</a>
+        </div>
+        <div class="col-md-4 mb-3">
+            <a href="/FindProduct" class="btn btn-primary btn-block">Find Product</a>
+        </div>
+    </div>
+</div>

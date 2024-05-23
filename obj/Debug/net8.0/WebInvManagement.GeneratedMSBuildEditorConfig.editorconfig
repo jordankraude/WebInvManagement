@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebInvManagement
+build_property.RootNamespace = WebInvManagement
+build_property.ProjectDir = C:\Users\Jordan\Desktop\Workspace\CSE310\Inventory-Management\WebInvManagement\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Jordan\Desktop\Workspace\CSE310\Inventory-Management\WebInvManagement
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Jordan/Desktop/Workspace/CSE310/Inventory-Management/WebInvManagement/Pages/Account/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/Desktop/Workspace/CSE310/Inventory-Management/WebInvManagement/Pages/Account/logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxsb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/Desktop/Workspace/CSE310/Inventory-Management/WebInvManagement/Pages/addProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRkUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/Desktop/Workspace/CSE310/Inventory-Management/WebInvManagement/Pages/dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/Desktop/Workspace/CSE310/Inventory-Management/WebInvManagement/Pages/findProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmluZFByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/Desktop/Workspace/CSE310/Inventory-Management/WebInvManagement/Pages/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/Desktop/Workspace/CSE310/Inventory-Management/WebInvManagement/Pages/removeProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVtb3ZlUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/Desktop/Workspace/CSE310/Inventory-Management/WebInvManagement/Pages/updateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdXBkYXRlUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/Desktop/Workspace/CSE310/Inventory-Management/WebInvManagement/Pages/updateProductSubmission.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdXBkYXRlUHJvZHVjdFN1Ym1pc3Npb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/Desktop/Workspace/CSE310/Inventory-Management/WebInvManagement/Pages/viewInventory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdmlld0ludmVudG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/Desktop/Workspace/CSE310/Inventory-Management/WebInvManagement/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

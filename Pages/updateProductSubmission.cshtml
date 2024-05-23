@@ -1,0 +1,50 @@
+@page
+@namespace WebInvManagement.Pages
+@model WebInvManagement.Pages.UpdateProductSubmissionModel
+@{
+    ViewData["Title"] = "Update Product Submission";
+    Layout = "_Layout"; // Specify the layout file to use
+}
+
+<h1 class="mb-3">@ViewData["Title"]</h1>
+
+<div class="container">
+    <form method="post">
+        <div class="mb-3">
+            <label for="Name" class="form-label">Product Name</label>
+            <input type="text" class="form-control" id="Name" name="Name" placeholder="Enter product name" value="@Model.Name">
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Name)</span>
+        </div>
+        <div class="mb-3">
+            <label for="Description" class="form-label">Description</label>
+            <textarea class="form-control" id="Description" name="Description" rows="3" placeholder="Enter description">@Model.Description</textarea>
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Description)</span>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="Price" class="form-label">Price</label>
+                <input type="text" class="form-control" id="Price" name="Price" placeholder="Enter price" value="@Model.Price">
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Price)</span>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="Quantity" class="form-label">Quantity</label>
+                <input type="number" class="form-control" id="Quantity" name="Quantity" placeholder="Enter quantity" value="@Model.Quantity">
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Quantity)</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="Weight" class="form-label">Weight</label>
+                <input type="text" class="form-control" id="Weight" name="Weight" placeholder="Enter weight" value="@Model.Weight">
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Weight)</span>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="Barcode" class="form-label">Barcode</label>
+                <input type="text" class="form-control" id="Barcode" name="Barcode" placeholder="Enter barcode" value="@Model.Barcode">
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Barcode)</span>
+            </div>
+        </div>
+        @Html.AntiForgeryToken()
+        <button type="submit" class="btn btn-primary">Update Product</button>
+    </form>
+</div>
